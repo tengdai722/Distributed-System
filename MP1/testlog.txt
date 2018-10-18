@@ -1,0 +1,33 @@
+[Sun Nov 01 15:22:58.016617 2015] [ssl:info] [pid 1657:tid 3072493312] AH01887: Init: Initializing (virtual) servers for SSL
+[Sun Nov 01 15:22:58.024154 2015] [ssl:info] [pid 1657:tid 3072493312] AH01876: mod_ssl/2.4.17 compiled against Server: Apache/2.4.17, Library: OpenSSL/1.0.1k
+[Sun Nov 01 15:22:58.025168 2015] [unique_id:info] [pid 1657:tid 3072493312] AH01566: using ip addr 127.0.0.1
+[Sun Nov 01 15:22:59.042327 2015] [socache_shmcb:debug] [pid 1678:tid 3072493312] mod_socache_shmcb.c(397): AH00821: shmcb_init allocated 524288 bytes of shared memory
+[Sun Nov 01 15:22:59.042358 2015] [socache_shmcb:debug] [pid 1678:tid 3072493312] mod_socache_shmcb.c(413): AH00822: for 524232 bytes (524288 including header), recommending 32 subcaches, 91 indexes each
+[Sun Nov 01 15:22:59.042361 2015] [socache_shmcb:debug] [pid 1678:tid 3072493312] mod_socache_shmcb.c(446): AH00824: shmcb_init_memory choices follow
+[Sun Nov 01 15:22:59.042363 2015] [socache_shmcb:debug] [pid 1678:tid 3072493312] mod_socache_shmcb.c(448): AH00825: subcache_num = 32
+[Sun Nov 01 15:22:59.042364 2015] [socache_shmcb:debug] [pid 1678:tid 3072493312] mod_socache_shmcb.c(450): AH00826: subcache_size = 16376
+[Sun Nov 01 15:22:59.042366 2015] [socache_shmcb:debug] [pid 1678:tid 3072493312] mod_socache_shmcb.c(452): AH00827: subcache_data_offset = 2200
+[Sun Nov 01 15:22:59.042368 2015] [socache_shmcb:debug] [pid 1678:tid 3072493312] mod_socache_shmcb.c(454): AH00828: subcache_data_size = 14176
+[Sun Nov 01 15:22:59.042369 2015] [socache_shmcb:debug] [pid 1678:tid 3072493312] mod_socache_shmcb.c(456): AH00829: index_num = 91
+[Sun Nov 01 15:22:59.042439 2015] [socache_shmcb:info] [pid 1678:tid 3072493312] AH00830: Shared memory socache initialised
+[Sun Nov 01 15:22:59.042441 2015] [ssl:info] [pid 1678:tid 3072493312] AH01887: Init: Initializing (virtual) servers for SSL
+[Sun Nov 01 15:22:59.044253 2015] [ssl:info] [pid 1678:tid 3072493312] AH01876: mod_ssl/2.4.17 compiled against Server: Apache/2.4.17, Library: OpenSSL/1.0.1k
+[Sun Nov 01 15:22:59.045115 2015] [unique_id:info] [pid 1678:tid 3072493312] AH01566: using ip addr 127.0.0.1
+[Sun Nov 01 15:23:00.002327 2015] [mpm_event:notice] [pid 1678:tid 3072493312] AH00489: Apache/2.4.17 (Unix) OpenSSL/1.0.1k configured -- resuming normal operations
+[Sun Nov 01 15:23:00.002825 2015] [mpm_event:info] [pid 1678:tid 3072493312] AH00490: Server built: Nov  1 2015 04:07:28
+[Sun Nov 01 15:23:00.002889 2015] [core:notice] [pid 1678:tid 3072493312] AH00094: Command line: '/usr/sbin/httpd'
+[Sun Nov 01 15:23:00.002896 2015] [core:debug] [pid 1678:tid 3072493312] log.c(1546): AH02639: Using SO_REUSEPORT: yes (1)
+[Sun Nov 01 15:23:00.003564 2015] [proxy:debug] [pid 1704:tid 3072493312] proxy_util.c(1790): AH00925: initializing worker proxy:reverse shared
+[Sun Nov 01 15:23:00.003616 2015] [proxy:debug] [pid 1704:tid 3072493312] proxy_util.c(1832): AH00927: initializing worker proxy:reverse local
+[Sun Nov 01 15:23:00.003674 2015] [proxy:debug] [pid 1704:tid 3072493312] proxy_util.c(1867): AH00930: initialized pool in child 1704 for (*) min=0 max=50 smax=50
+[Sun Nov 01 15:23:00.004417 2015] [proxy:debug] [pid 1703:tid 3072493312] proxy_util.c(1790): AH00925: initializing worker proxy:reverse shared
+[Sun Nov 01 15:23:00.004518 2015] [proxy:debug] [pid 1703:tid 3072493312] proxy_util.c(1832): AH00927: initializing worker proxy:reverse local
+[Sun Nov 01 15:23:00.004561 2015] [proxy:debug] [pid 1703:tid 3072493312] proxy_util.c(1867): AH00930: initialized pool in child 1703 for (*) min=0 max=50 smax=50
+[Sun Nov 01 15:23:00.005174 2015] [proxy:debug] [pid 1702:tid 3072493312] proxy_util.c(1790): AH00925: initializing worker proxy:reverse shared
+[Sun Nov 01 15:23:00.005204 2015] [proxy:debug] [pid 1702:tid 3072493312] proxy_util.c(1832): AH00927: initializing worker proxy:reverse local
+[Sun Nov 01 15:23:00.005242 2015] [proxy:debug] [pid 1702:tid 3072493312] proxy_util.c(1867): AH00930: initialized pool in child 1702 for (*) min=0 max=50 smax=50
+[Sun Nov 01 15:23:00.005393 2015] [mpm_event:debug] [pid 1703:tid 3069811520] event.c(2094): AH02471: start_threads: Using epoll
+[Sun Nov 01 15:23:00.006956 2015] [mpm_event:debug] [pid 1704:tid 3069811520] event.c(2094): AH02471: start_threads: Using epoll
+[Sun Nov 01 15:23:00.008986 2015] [mpm_event:debug] [pid 1702:tid 3069811520] event.c(2094): AH02471: start_threads: Using epoll
+[Sun Nov 01 15:23:23.523888 2015] [core:info] [pid 1678:tid 3072493312] AH00096: removed PID file /var/run/apache.pid (pid=1678)
+[Sun Nov 01 15:23:23.523930 2015] [mpm_event:notice] [pid 1678:tid 3072493312] AH00491: caught SIGTERM, shutting down

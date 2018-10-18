@@ -1,0 +1,28 @@
+syntax = "proto2";
+
+package cs425mp2;
+
+option java_package = "edu.illinois.cs425";
+option java_outer_classname = "CS425Messages";
+
+message Message{
+    required string id = 1;
+    required PacketType type = 2;
+    required bool data = 3;
+    repeated NodeEvent nodeEvents = 4;
+    enum PacketType{
+        PING = 0;
+        ACK = 1;
+        DATA = 2;
+    }
+    enum Event{
+        JOIN = 0;
+        FAIL = 1;
+        LEAVE = 2;
+    }
+    message NodeEvent{
+        required Event event = 1;
+        required string id =2;
+    }
+}
+

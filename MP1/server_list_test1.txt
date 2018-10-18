@@ -1,0 +1,4 @@
+fa18-cs425-g20-03.cs.illinois.edu,vm3.log
+fa18-cs425-g20-06.cs.illinois.edu,vm6.log
+fa18-cs425-g20-07.cs.illinois.edu,vm7.log
+fa18-cs425-g20-10.cs.illinois.edu,vm10.log
